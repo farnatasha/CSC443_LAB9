@@ -2,7 +2,7 @@
 setcookie ("CouponNumber",time()-1);
 setcookie ("CouponValue",time()-1);
 print ("<pre>\n");
-echo "<br>"
+echo "<br>";
 print ("2 cookies were delivered with past times.\n");
 echo "<br>" 
 
@@ -13,7 +13,7 @@ foreach ($_COOKIE as $name => $value) {
     print " $name = $value\n";
 }
 
-echo "<br>"
+echo "<br>";
 print ("<\pre>\n");
 
 ?>
